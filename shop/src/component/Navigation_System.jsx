@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/logo.jpg"
+import Logo from "../assets/logo.png"
 import "../styles/nav_system.css"
 
 function Navigation_System() {
