@@ -1,4 +1,5 @@
 header {
+    width: 100%;
     display: flex;
     justify-content: center;   /* centers horizontally */
     align-items: center;       /* centers vertically */
@@ -6,6 +7,6 @@ header {
 }
 
 .logo-container img {
-    width: 50%;      /* adjust this number to make it bigger/smaller */
+    width: 360px;      /* adjust this number to make it bigger/smaller */
     height: auto;     /* keeps aspect ratio clean */
 }
