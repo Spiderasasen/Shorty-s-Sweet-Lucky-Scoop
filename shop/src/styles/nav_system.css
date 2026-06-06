@@ -6,7 +6,7 @@ header {
     padding: 10px 0 55px 0;
     height: auto;
     gap: 20px;
-    border-bottom: 1px solid red;
+    border-bottom: 2px solid #522205;
     color: #3e1a02;
 }
 
@@ -25,8 +25,34 @@ nav ul {
     margin: 0;
 }
 
-li{
-    border: 1px solid red;
+/*button animation code*/
+li {
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #522205;
     padding: 20px;
     border-radius: 10px;
+    color: #522205;
+    transition: color 0.3s ease;
+}
+
+li::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #522205;
+    z-index: -1;
+    transition: width 0.3s ease;
+}
+
+li:hover {
+    color: white;
+    cursor: pointer;
+}
+
+li:hover::before {
+    width: 100%;
 }
