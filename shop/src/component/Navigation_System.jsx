@@ -8,6 +8,14 @@ function Navigation_System() {
             <div className="logo-container">
                 <img src={Logo} alt="Shop Logo" />
             </div>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>Products</li>
+                    <li>About Me</li>
+                    <li>Contact Me</li>
+                </ul>
+            </nav>
         </header>
     )
 }
