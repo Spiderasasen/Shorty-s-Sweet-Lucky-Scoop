@@ -1,6 +1,9 @@
 # Shorty-s-Sweet-Lucky-Scoop
 This is the website that will be used for my cuseins bussiness.
 
+# link
+https://shorty-s-sweet-lucky-scoop.vercel.app/
+
 # Basic design in mind
 - Home page
   1. some items on display, mayber 10 items
