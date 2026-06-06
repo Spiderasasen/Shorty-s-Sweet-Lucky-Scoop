@@ -1,0 +1,11 @@
+header {
+    display: flex;
+    justify-content: center;   /* centers horizontally */
+    align-items: center;       /* centers vertically */
+    padding: 10px
+}
+
+.logo-container img {
+    width: 50%;      /* adjust this number to make it bigger/smaller */
+    height: auto;     /* keeps aspect ratio clean */
+}

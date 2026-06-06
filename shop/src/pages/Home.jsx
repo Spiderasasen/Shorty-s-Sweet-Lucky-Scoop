@@ -1,7 +1,9 @@
+import Navigation_System from "../component/Navigation_System.jsx"
+
 function Home(){
     return(
         <>
-            <h1>Welcome to the Home Page</h1>
+            <Navigation_System/>
         </>
     )
 }
